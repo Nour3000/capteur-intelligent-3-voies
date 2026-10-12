@@ -1,0 +1,23 @@
+Repère;Quantité;Composant;Valeur;Empreinte;Remarque
+J9,J10;1;Module BluePill STM32F103C8T6;-;2 x barrette femelle 1x20 2,54 mm;écart 15,24 mm (empreintes J9A+J9B et J10A+J10B)
+U1;1;Ampli op quadruple LM324N;-;DIP14 + support;
+R1,R2,R3;3;Résistance couche métal 1/4 W 1 %;10 kΩ;axiale 10,16 mm;haut des ponts diviseurs
+R4,R5,R6;3;Résistance couche métal 1/4 W 1 %;15 kΩ;axiale 10,16 mm;bas des ponts diviseurs
+R7;1;Résistance 1/4 W;1 kΩ;axiale 10,16 mm;LED témoin
+R8;1;Résistance 1/4 W;220 Ω;axiale 10,16 mm;rétroéclairage LCD (inutile si intégrée au module)
+RV1;1;Potentiomètre ajustable carré 1/4" (type Bourns 3252W/3266W);10 kΩ;PRE-SQ3 (3 broches en triangle, curseur décalé);contraste LCD - vérifier le brochage sur l'impression 1:1
+C1,C2;2;Condensateur céramique;100 nF;pas 5,08 mm;découplage
+C3;1;Condensateur électrolytique 16 V;100 µF;radial;entrée 5 V
+C4;1;Condensateur électrolytique 16 V;470 µF;radial;servo
+D1;1;LED 3 mm;-;traversant;témoin d'alimentation
+J1;1;Barrette mâle 1x2 (ou bornier pas 2,54 mm);-;2,54 mm;entrée 5 V
+J2,J3,J4;3;Barrette femelle 1x4;-;2,54 mm;HC-SR04 0°, 120°, 240°
+J5;1;Barrette femelle 1x3;-;2,54 mm;LM35
+J6;1;Barrette femelle 1x16;-;2,54 mm;LCD 16x2 (empreintes J6A+J6B)
+J7;1;Barrette mâle 1x3;-;2,54 mm;servo
+J8;1;Barrette mâle 1x3;-;2,54 mm;UART
+-;3;Capteur ultrasons HC-SR04;-;-;hors carte
+-;1;Capteur de température LM35DZ;-;TO-92;hors carte ou sur J5
+-;1;Afficheur LCD 16x2 (HD44780);-;-;hors carte
+-;1;Servo-moteur SG90;-;-;hors carte
+-;4;Trous de fixation (pastille C-180-M3);-;perçage 3,0 mm;coins de la carte, vis M2.5 (ou M3 forcée)

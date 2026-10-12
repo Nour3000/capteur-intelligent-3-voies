@@ -1,0 +1,9 @@
+*.workspace
+Project Backups/
+*\[Autosaved\]*
+*.bak
+build/
+History/
+__Previews/
+*.SchDocPreview
+*.PcbDocPreview
